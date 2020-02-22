@@ -1,0 +1,25 @@
+server:
+  port: 8769
+spring:
+  application:
+    name: eureka-server-configure
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/JWXYZ/springcouldconfigure
+          search-paths: swallow
+          password: Ss87838511323
+          username: JWXYZ
+          skip-ssl-validation: true
+
+      label: mater
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

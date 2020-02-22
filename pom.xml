@@ -24,6 +24,8 @@
         <module>feign</module>
         <module>configure-server</module>
         <module>configure-client</module>
+        <module>eureka-server-configure</module>
+        <module>eureka-client-configure</module>
     </modules>
 
     <!-- Greenwich.SR1  Dalston.SR5 -->

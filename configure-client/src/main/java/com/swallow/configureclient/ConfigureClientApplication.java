@@ -15,11 +15,8 @@ public class ConfigureClientApplication {
         SpringApplication.run(ConfigureClientApplication.class, args);
     }
 
-    @Value("${foo}")
-    String foo;
-
     @RequestMapping(value = "/hi")
     public String hi(){
-        return foo;
+        return "df";
     }
 }
