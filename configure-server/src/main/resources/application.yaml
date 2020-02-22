@@ -5,10 +5,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/JWXYZ/swallow.git
+          uri: https://github.com/JWXYZ/springcouldconfigure
           search-paths: swallow
           password:
           username:
+          skip-ssl-validation: true
 
       label: mater
 server:

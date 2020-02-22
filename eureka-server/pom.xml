@@ -7,9 +7,12 @@
         <artifactId>swallow</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+
     <groupId>com.swallow</groupId>
     <artifactId>eureka-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
     <name>eureka-server</name>
     <description>Demo project for Spring Boot</description>
 
@@ -17,6 +20,12 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.google.guava</groupId>
+                    <artifactId>guava</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 
