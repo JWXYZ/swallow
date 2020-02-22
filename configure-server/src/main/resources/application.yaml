@@ -6,7 +6,7 @@ spring:
       server:
         git:
           uri: https://github.com/JWXYZ/swallow.git
-          search-paths: respo
+          search-paths: swallow
           password:
           username:
 
