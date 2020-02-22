@@ -1,0 +1,9 @@
+server:
+  port: 88767
+spring:
+  application:
+    name: configure-client
+  cloud:
+    configure:
+      label: master
+      profile: dev
