@@ -26,6 +26,8 @@
         <module>configure-client</module>
         <module>eureka-server-configure</module>
         <module>eureka-client-configure</module>
+        <module>zipkin-client</module>
+        <module>zipkin-server</module>
     </modules>
 
     <!-- Greenwich.SR1  Dalston.SR5 -->
