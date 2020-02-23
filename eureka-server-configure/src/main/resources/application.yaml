@@ -7,19 +7,13 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/JWXYZ/springcouldconfigure
-          search-paths: swallow
-          password: Ss87838511323
-          username: JWXYZ
+          uri: https://github.com/JWXYZ/springcouldconfigure/
+          search-paths: configures
+          password:
+          username:
           skip-ssl-validation: true
+      label: master
 
-      label: mater
-
-eureka:
-  instance:
-    hostname: localhost
   client:
-    fetch-registry: false
-    register-with-eureka: false
     service-url:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defaultZone: http://localhost:8761/eureka/

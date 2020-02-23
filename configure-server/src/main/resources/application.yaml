@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/JWXYZ/springcouldconfigure
-          search-paths: swallow
+          uri: https://github.com/JWXYZ/springcouldconfigure/
+          search-paths: configures
           password:
           username:
           skip-ssl-validation: true
@@ -14,3 +14,5 @@ spring:
       label: mater
 server:
   port: 8766
+
+
