@@ -3,3 +3,7 @@ server:
 spring:
   application:
     name: eureka-client
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer2:8769/eureka/
