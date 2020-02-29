@@ -29,6 +29,7 @@
         <module>zipkin-client</module>
         <module>zipkin-server</module>
         <module>zipkin-client-eureka-server</module>
+        <module>eureka-client-hystrix</module>
     </modules>
 
     <!-- Greenwich.SR1  Dalston.SR5 -->
