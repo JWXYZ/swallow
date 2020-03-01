@@ -29,7 +29,7 @@ public class EurekaClientHystrixApplication {
         SpringApplication.run(EurekaClientHystrixApplication.class, args);
     }
 
-    @Bean
+  /*  @Bean
     public ServletRegistrationBean getServlet(){
         HystrixMetricsStreamServlet streamServlet = new HystrixMetricsStreamServlet();
         ServletRegistrationBean registrationBean = new ServletRegistrationBean(streamServlet);
@@ -37,7 +37,7 @@ public class EurekaClientHystrixApplication {
         registrationBean.addUrlMappings("/actuator/hystrix.stream");
         registrationBean.setName("HystrixMetricsStreamServlet");
         return registrationBean;
-    }
+    }*/
 
     @Value("${server.port}")
     private String port;
