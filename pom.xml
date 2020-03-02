@@ -35,6 +35,7 @@
         <module>service-gatway-first</module>
         <module>gateway-filter</module>
         <module>gateway-limiter</module>
+        <module>eureka-client-gateway</module>
     </modules>
 
     <!-- Greenwich.SR1  Dalston.SR5 -->
